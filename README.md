@@ -30,7 +30,7 @@ pip install python-tempmail10
 From source:
 
 ```bash
-git clone https://github.com/yourname/python-tempmail10.git
+git clone https://github.com/AkasakaID/python-tempmail10.git
 cd python-tempmail10
 pip install -e .
 ```
@@ -40,7 +40,7 @@ pip install -e .
 ```python
 import asyncio
 
-from tempmail import Tempmail10
+from tempmail10 import Tempmail10
 
 
 async def main():
@@ -71,7 +71,7 @@ if __name__ == "__main__":
 ### Creating a client
 
 ```python
-from tempmail import Tempmail10
+from tempmail10 import Tempmail10
 
 # Default
 tempmail = Tempmail10()

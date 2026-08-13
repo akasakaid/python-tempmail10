@@ -1,6 +1,6 @@
 import asyncio
 
-from tempmail import Tempmail10
+from tempmail10 import Tempmail10
 
 
 async def main():

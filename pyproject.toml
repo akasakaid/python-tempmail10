@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-tempmail10"
-version = "0.1.0"
+version = "0.1.1"
 description = "Async temporary email client for 10minemail"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -35,4 +35,4 @@ Repository = "https://github.com/AkasakaID/python-tempmail10"
 Issues = "https://github.com/AkasakaID/python-tempmail10/issues"
 
 [tool.setuptools.packages.find]
-include = ["tempmail*"]
+include = ["tempmail10*"]
