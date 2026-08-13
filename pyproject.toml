@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-tempmail10"
+version = "0.1.0"
+description = "Async temporary email client for 10minemail"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "AkasakaID" }]
+keywords = ["tempmail", "temporary-email", "10minemail", "async", "email"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Communications :: Email",
+    "Framework :: AsyncIO",
+]
+dependencies = [
+    "curl_cffi",
+    "beautifulsoup4",
+]
+
+[project.urls]
+Homepage = "https://github.com/AkasakaID/python-tempmail10"
+Repository = "https://github.com/AkasakaID/python-tempmail10"
+Issues = "https://github.com/AkasakaID/python-tempmail10/issues"
+
+[tool.setuptools.packages.find]
+include = ["tempmail*"]
